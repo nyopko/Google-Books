@@ -4,7 +4,7 @@ import "./style.css";
 // Will need to make a ul and make each card an li
 
 function SearchCard() {
-    return <div className="card">
+    return <div className="searchCard">
     <div class="container">
     <div class="card flex-row flex-wrap">
         <div class="card-header border-0">
