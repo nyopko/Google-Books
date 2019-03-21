@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Jumbotron from "./components/Jumbotron";
 import Nav from "./components/Nav";
 import BodyWrapper from "./components/BodyWrapper";
+import SearchCard from "./components/SearchCard";
 
 
 class App extends Component {
@@ -10,6 +11,7 @@ class App extends Component {
     <div>
       <Nav></Nav>
       <Jumbotron></Jumbotron>
+      <SearchCard></SearchCard>
       <BodyWrapper>
       </BodyWrapper>
       </div>
